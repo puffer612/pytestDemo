@@ -1,0 +1,229 @@
+[2021-02-24 09:55:09,203][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.int文件
+[2021-02-24 09:55:46,104][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.int文件
+[2021-02-24 09:56:09,627][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 09:56:09,628][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 09:56:46,642][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 09:56:46,643][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 09:57:29,357][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 09:57:29,358][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 09:59:10,811][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 09:59:10,812][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 10:01:16,740][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 10:01:16,741][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 10:01:16,741][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsatest.niceloo.com/api/api/sc/captcha/captcha
+[2021-02-24 10:01:16,742][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-02-24 10:01:16,742][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-02-24 10:01:16,742][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 10:01:16,742][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-02-24 10:01:16,742][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-02-24 10:01:16,742][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'ADMIN.WEB'}
+[2021-02-24 10:01:16,742][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 10:01:16,746][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsatest.niceloo.com:80
+[2021-02-24 10:01:16,755][connectionpool.py 461][DEBUG]: http://umsatest.niceloo.com:80 "GET /api/api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=ADMIN.WEB HTTP/1.1" 200 215
+[2021-02-24 10:02:01,281][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 10:02:01,282][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 10:02:01,282][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsatest.niceloo.com/api/sc/captcha/captcha
+[2021-02-24 10:02:01,282][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-02-24 10:02:01,282][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-02-24 10:02:01,283][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 10:02:01,283][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-02-24 10:02:01,283][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-02-24 10:02:01,283][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'ADMIN.WEB'}
+[2021-02-24 10:02:01,283][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 10:02:01,286][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsatest.niceloo.com:80
+[2021-02-24 10:02:01,299][connectionpool.py 461][DEBUG]: http://umsatest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=ADMIN.WEB HTTP/1.1" 200 236
+[2021-02-24 10:02:22,252][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 10:02:22,252][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 10:02:22,253][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsatest.niceloo.com/api/sc/captcha/captcha
+[2021-02-24 10:02:22,253][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-02-24 10:02:22,253][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-02-24 10:02:22,253][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 10:02:22,253][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-02-24 10:02:22,253][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-02-24 10:02:22,253][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'ADMIN.WEB'}
+[2021-02-24 10:02:22,254][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 10:02:22,257][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsatest.niceloo.com:80
+[2021-02-24 10:02:22,268][connectionpool.py 461][DEBUG]: http://umsatest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=ADMIN.WEB HTTP/1.1" 200 236
+[2021-02-24 15:14:14,927][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 15:14:14,929][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 15:14:14,949][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsatest.niceloo.com/api/sc/captcha/captcha
+[2021-02-24 15:14:14,949][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-02-24 15:14:14,950][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-02-24 15:14:14,950][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 15:14:14,950][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-02-24 15:14:14,950][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-02-24 15:14:14,950][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'ADMIN.WEB'}
+[2021-02-24 15:14:14,950][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 15:14:14,954][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsatest.niceloo.com:80
+[2021-02-24 15:14:14,972][connectionpool.py 461][DEBUG]: http://umsatest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=ADMIN.WEB HTTP/1.1" 200 236
+[2021-02-24 15:14:14,972][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsatest.niceloo.com/api/uc/login
+[2021-02-24 15:14:14,972][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-02-24 15:14:14,972][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-02-24 15:14:14,973][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"7E1F7C13941E4140AB2E25B98D45F87B\", \"captchaValue\": \"7672\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-02-24 15:14:14,973][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-02-24 15:14:14,973][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-02-24 15:14:14,973][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "7E1F7C13941E4140AB2E25B98D45F87B", "captchaValue": "7672"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-02-24 15:14:14,973][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"7E1F7C13941E4140AB2E25B98D45F87B\", \"captchaValue\": \"7672\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-02-24 15:14:14,977][connectionpool.py 461][DEBUG]: http://umsatest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%227E1F7C13941E4140AB2E25B98D45F87B%22%2C+%22captchaValue%22%3A+%227672%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 226
+[2021-02-24 15:15:02,428][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 15:15:02,429][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 15:15:02,451][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsatest.niceloo.com/api/sc/captcha/captcha
+[2021-02-24 15:15:02,451][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-02-24 15:15:02,451][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-02-24 15:15:02,451][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 15:15:02,451][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-02-24 15:15:02,451][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-02-24 15:15:02,451][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'ADMIN.WEB'}
+[2021-02-24 15:15:02,451][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 15:15:02,456][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsatest.niceloo.com:80
+[2021-02-24 15:15:02,472][connectionpool.py 461][DEBUG]: http://umsatest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=ADMIN.WEB HTTP/1.1" 200 236
+[2021-02-24 15:15:02,473][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsatest.niceloo.com/api/uc/login
+[2021-02-24 15:15:02,473][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-02-24 15:15:02,473][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-02-24 15:15:02,473][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"11B4C9C6B25E41E283AF80AF2F837311\", \"captchaValue\": \"8706\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-02-24 15:15:02,473][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-02-24 15:15:02,473][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-02-24 15:15:02,473][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "11B4C9C6B25E41E283AF80AF2F837311", "captchaValue": "8706"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-02-24 15:15:02,474][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"11B4C9C6B25E41E283AF80AF2F837311\", \"captchaValue\": \"8706\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-02-24 15:15:02,477][connectionpool.py 461][DEBUG]: http://umsatest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%2211B4C9C6B25E41E283AF80AF2F837311%22%2C+%22captchaValue%22%3A+%228706%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 226
+[2021-02-24 15:16:36,789][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 15:16:36,790][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 15:16:36,809][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsatest.niceloo.com/api/sc/captcha/captcha
+[2021-02-24 15:16:36,810][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-02-24 15:16:36,810][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-02-24 15:16:36,810][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 15:16:36,810][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-02-24 15:16:36,810][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-02-24 15:16:36,810][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'ADMIN.WEB'}
+[2021-02-24 15:16:36,810][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 15:16:36,814][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsatest.niceloo.com:80
+[2021-02-24 15:16:36,834][connectionpool.py 461][DEBUG]: http://umsatest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=ADMIN.WEB HTTP/1.1" 200 236
+[2021-02-24 15:16:36,834][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsatest.niceloo.com/api/uc/login
+[2021-02-24 15:16:36,835][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-02-24 15:16:36,835][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-02-24 15:16:36,835][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"FDA257373AAB44D9B295C9D08E154556\", \"captchaValue\": \"2839\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-02-24 15:16:36,835][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-02-24 15:16:36,835][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-02-24 15:16:36,835][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "FDA257373AAB44D9B295C9D08E154556", "captchaValue": "2839"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-02-24 15:16:36,835][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"FDA257373AAB44D9B295C9D08E154556\", \"captchaValue\": \"2839\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-02-24 15:16:36,839][connectionpool.py 461][DEBUG]: http://umsatest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%22FDA257373AAB44D9B295C9D08E154556%22%2C+%22captchaValue%22%3A+%222839%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 226
+[2021-02-24 15:20:55,119][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 15:20:55,120][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 15:20:55,144][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/sc/captcha/captcha
+[2021-02-24 15:20:55,144][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-02-24 15:20:55,144][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-02-24 15:20:55,145][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 15:20:55,145][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-02-24 15:20:55,145][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-02-24 15:20:55,145][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'ADMIN.WEB'}
+[2021-02-24 15:20:55,145][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 15:20:55,151][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsutest.niceloo.com:80
+[2021-02-24 15:20:55,162][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=ADMIN.WEB HTTP/1.1" 200 236
+[2021-02-24 15:20:55,163][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/uc/login
+[2021-02-24 15:20:55,163][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-02-24 15:20:55,163][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-02-24 15:20:55,163][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"CE9301B945C7468EB673DDB76D7B6095\", \"captchaValue\": \"4510\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-02-24 15:20:55,163][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-02-24 15:20:55,163][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-02-24 15:20:55,164][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "CE9301B945C7468EB673DDB76D7B6095", "captchaValue": "4510"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-02-24 15:20:55,164][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"CE9301B945C7468EB673DDB76D7B6095\", \"captchaValue\": \"4510\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-02-24 15:20:55,203][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%22CE9301B945C7468EB673DDB76D7B6095%22%2C+%22captchaValue%22%3A+%224510%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 248
+[2021-02-24 15:24:16,045][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 15:24:16,046][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-24 15:24:16,068][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/sc/captcha/captcha
+[2021-02-24 15:24:16,068][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-02-24 15:24:16,068][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-02-24 15:24:16,068][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 15:24:16,069][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-02-24 15:24:16,069][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-02-24 15:24:16,069][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'ADMIN.WEB'}
+[2021-02-24 15:24:16,069][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-02-24 15:24:16,074][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsutest.niceloo.com:80
+[2021-02-24 15:24:16,085][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=ADMIN.WEB HTTP/1.1" 200 236
+[2021-02-24 15:24:16,086][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/uc/login
+[2021-02-24 15:24:16,086][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-02-24 15:24:16,086][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-02-24 15:24:16,086][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"AFC48343BF834BFA9E866675F1357FDF\", \"captchaValue\": \"4626\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-02-24 15:24:16,086][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-02-24 15:24:16,086][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-02-24 15:24:16,086][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "AFC48343BF834BFA9E866675F1357FDF", "captchaValue": "4626"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-02-24 15:24:16,086][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"AFC48343BF834BFA9E866675F1357FDF\", \"captchaValue\": \"4626\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-02-24 15:24:16,115][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%22AFC48343BF834BFA9E866675F1357FDF%22%2C+%22captchaValue%22%3A+%224626%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 248

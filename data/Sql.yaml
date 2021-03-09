@@ -1,0 +1,3 @@
+init_sql:
+  table_name: interface
+  sql: select * from interface order by id desc limit 1

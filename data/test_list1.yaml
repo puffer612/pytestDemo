@@ -1,0 +1,6 @@
+msg_list:
+  pageIndex: 0
+  pageSize: 100
+  loadTime: ${time}
+  mtBiztype: 'R.STUDYNOTICE'
+  userId: USER20201227010000000008

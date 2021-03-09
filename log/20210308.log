@@ -1,0 +1,703 @@
+[2021-03-08 15:45:26,002][factory.py 18][DEBUG]: Not in REPL -> leaving logger event level as is.
+[2021-03-08 15:45:26,349][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:45:26,350][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:45:26,438][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:46:00,324][factory.py 18][DEBUG]: Not in REPL -> leaving logger event level as is.
+[2021-03-08 15:46:00,633][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:46:00,634][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:46:00,703][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:46:00,722][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/sc/captcha/captcha
+[2021-03-08 15:46:00,723][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:46:00,723][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:46:00,723][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-03-08 15:46:00,723][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:46:00,723][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:46:00,723][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'ADMIN.WEB'}
+[2021-03-08 15:46:00,723][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-03-08 15:46:00,728][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsutest.niceloo.com:80
+[2021-03-08 15:46:00,752][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=ADMIN.WEB HTTP/1.1" 200 236
+[2021-03-08 15:46:00,752][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/uc/login
+[2021-03-08 15:46:00,752][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:46:00,752][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:46:00,753][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"D8E82382A1854214B12257AB77649E54\", \"captchaValue\": \"9989\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:46:00,753][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:46:00,753][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:46:00,753][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "D8E82382A1854214B12257AB77649E54", "captchaValue": "9989"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 15:46:00,753][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"D8E82382A1854214B12257AB77649E54\", \"captchaValue\": \"9989\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:46:00,759][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%22D8E82382A1854214B12257AB77649E54%22%2C+%22captchaValue%22%3A+%229989%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 263
+[2021-03-08 15:46:00,816][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.address`.
+[2021-03-08 15:46:00,827][factory.py 106][DEBUG]: Provider `faker.providers.address` has been localized to `en_US`.
+[2021-03-08 15:46:00,834][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.automotive`.
+[2021-03-08 15:46:00,839][factory.py 106][DEBUG]: Provider `faker.providers.automotive` has been localized to `en_US`.
+[2021-03-08 15:46:00,843][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.bank`.
+[2021-03-08 15:46:00,848][factory.py 104][DEBUG]: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2021-03-08 15:46:00,851][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.barcode`.
+[2021-03-08 15:46:00,852][factory.py 106][DEBUG]: Provider `faker.providers.barcode` has been localized to `en_US`.
+[2021-03-08 15:46:00,856][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.color`.
+[2021-03-08 15:46:00,860][factory.py 106][DEBUG]: Provider `faker.providers.color` has been localized to `en_US`.
+[2021-03-08 15:46:00,863][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.company`.
+[2021-03-08 15:46:00,869][factory.py 106][DEBUG]: Provider `faker.providers.company` has been localized to `en_US`.
+[2021-03-08 15:46:00,873][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[2021-03-08 15:46:00,874][factory.py 106][DEBUG]: Provider `faker.providers.credit_card` has been localized to `en_US`.
+[2021-03-08 15:46:00,877][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.currency`.
+[2021-03-08 15:46:00,881][factory.py 106][DEBUG]: Provider `faker.providers.currency` has been localized to `en_US`.
+[2021-03-08 15:46:00,883][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.date_time`.
+[2021-03-08 15:46:00,889][factory.py 106][DEBUG]: Provider `faker.providers.date_time` has been localized to `en_US`.
+[2021-03-08 15:46:00,892][factory.py 115][DEBUG]: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:46:00,892][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.geo`.
+[2021-03-08 15:46:00,894][factory.py 106][DEBUG]: Provider `faker.providers.geo` has been localized to `en_US`.
+[2021-03-08 15:46:00,896][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.internet`.
+[2021-03-08 15:46:00,903][factory.py 106][DEBUG]: Provider `faker.providers.internet` has been localized to `en_US`.
+[2021-03-08 15:46:00,906][factory.py 115][DEBUG]: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:46:00,907][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.job`.
+[2021-03-08 15:46:00,912][factory.py 106][DEBUG]: Provider `faker.providers.job` has been localized to `en_US`.
+[2021-03-08 15:46:00,915][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.lorem`.
+[2021-03-08 15:46:00,919][factory.py 106][DEBUG]: Provider `faker.providers.lorem` has been localized to `en_US`.
+[2021-03-08 15:46:00,923][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.misc`.
+[2021-03-08 15:46:00,925][factory.py 106][DEBUG]: Provider `faker.providers.misc` has been localized to `en_US`.
+[2021-03-08 15:46:00,927][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.person`.
+[2021-03-08 15:46:00,939][factory.py 106][DEBUG]: Provider `faker.providers.person` has been localized to `en_US`.
+[2021-03-08 15:46:00,947][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[2021-03-08 15:46:00,969][factory.py 106][DEBUG]: Provider `faker.providers.phone_number` has been localized to `en_US`.
+[2021-03-08 15:46:00,974][factory.py 115][DEBUG]: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:46:00,975][factory.py 115][DEBUG]: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:46:00,976][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.ssn`.
+[2021-03-08 15:46:01,001][factory.py 106][DEBUG]: Provider `faker.providers.ssn` has been localized to `en_US`.
+[2021-03-08 15:46:01,007][factory.py 115][DEBUG]: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:46:01,008][conftest.py 26][INFO]: 获取当前用户的token信息为None
+[2021-03-08 15:46:01,009][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list1.yaml文件
+[2021-03-08 15:46:01,015][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-03-08 15:46:01,015][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/mc/my/msg/list
+[2021-03-08 15:46:01,016][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:46:01,016][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:46:01,016][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"pageIndex\": 0, \"pageSize\": 100, \"loadTime\": \"1615189561.0098438\", \"mtBiztype\": \"R.STUDYNOTICE\", \"userId\": \"USER20201227010000000008\"}",
+    "ctype": "YOULU.WEB",
+    "TOKEN": null
+}
+[2021-03-08 15:46:01,016][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:46:01,019][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:46:01,020][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"pageIndex": 0, "pageSize": 100, "loadTime": "1615189561.0098438", "mtBiztype": "R.STUDYNOTICE", "userId": "USER20201227010000000008"}', 'ctype': 'YOULU.WEB', 'TOKEN': None}
+[2021-03-08 15:46:01,021][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"pageIndex\": 0, \"pageSize\": 100, \"loadTime\": \"1615189561.0098438\", \"mtBiztype\": \"R.STUDYNOTICE\", \"userId\": \"USER20201227010000000008\"}",
+    "ctype": "YOULU.WEB",
+    "TOKEN": null
+}
+[2021-03-08 15:46:01,027][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/mc/my/msg/list?params=%7B%22pageIndex%22%3A+0%2C+%22pageSize%22%3A+100%2C+%22loadTime%22%3A+%221615189561.0098438%22%2C+%22mtBiztype%22%3A+%22R.STUDYNOTICE%22%2C+%22userId%22%3A+%22USER20201227010000000008%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 184
+[2021-03-08 15:46:01,031][test_msgList.py 13][INFO]: 开始测试
+[2021-03-08 15:48:50,757][factory.py 18][DEBUG]: Not in REPL -> leaving logger event level as is.
+[2021-03-08 15:48:51,079][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:48:51,080][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:48:51,153][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:48:51,173][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/sc/captcha/captcha
+[2021-03-08 15:48:51,173][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:48:51,173][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:48:51,174][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-03-08 15:48:51,174][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:48:51,174][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:48:51,174][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'ADMIN.WEB'}
+[2021-03-08 15:48:51,174][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-03-08 15:48:51,178][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsutest.niceloo.com:80
+[2021-03-08 15:48:51,211][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=ADMIN.WEB HTTP/1.1" 200 236
+[2021-03-08 15:48:51,212][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/uc/login
+[2021-03-08 15:48:51,212][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:48:51,212][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:48:51,212][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"94470FC3074E4A6780336741156C51F7\", \"captchaValue\": \"8997\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:48:51,212][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:48:51,212][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:48:51,212][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "94470FC3074E4A6780336741156C51F7", "captchaValue": "8997"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 15:48:51,212][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"94470FC3074E4A6780336741156C51F7\", \"captchaValue\": \"8997\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:48:51,235][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%2294470FC3074E4A6780336741156C51F7%22%2C+%22captchaValue%22%3A+%228997%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 263
+[2021-03-08 15:48:51,284][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.address`.
+[2021-03-08 15:48:51,293][factory.py 106][DEBUG]: Provider `faker.providers.address` has been localized to `en_US`.
+[2021-03-08 15:48:51,299][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.automotive`.
+[2021-03-08 15:48:51,304][factory.py 106][DEBUG]: Provider `faker.providers.automotive` has been localized to `en_US`.
+[2021-03-08 15:48:51,307][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.bank`.
+[2021-03-08 15:48:51,311][factory.py 104][DEBUG]: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2021-03-08 15:48:51,314][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.barcode`.
+[2021-03-08 15:48:51,316][factory.py 106][DEBUG]: Provider `faker.providers.barcode` has been localized to `en_US`.
+[2021-03-08 15:48:51,320][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.color`.
+[2021-03-08 15:48:51,323][factory.py 106][DEBUG]: Provider `faker.providers.color` has been localized to `en_US`.
+[2021-03-08 15:48:51,325][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.company`.
+[2021-03-08 15:48:51,332][factory.py 106][DEBUG]: Provider `faker.providers.company` has been localized to `en_US`.
+[2021-03-08 15:48:51,335][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[2021-03-08 15:48:51,336][factory.py 106][DEBUG]: Provider `faker.providers.credit_card` has been localized to `en_US`.
+[2021-03-08 15:48:51,338][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.currency`.
+[2021-03-08 15:48:51,341][factory.py 106][DEBUG]: Provider `faker.providers.currency` has been localized to `en_US`.
+[2021-03-08 15:48:51,344][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.date_time`.
+[2021-03-08 15:48:51,349][factory.py 106][DEBUG]: Provider `faker.providers.date_time` has been localized to `en_US`.
+[2021-03-08 15:48:51,352][factory.py 115][DEBUG]: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:48:51,352][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.geo`.
+[2021-03-08 15:48:51,354][factory.py 106][DEBUG]: Provider `faker.providers.geo` has been localized to `en_US`.
+[2021-03-08 15:48:51,356][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.internet`.
+[2021-03-08 15:48:51,364][factory.py 106][DEBUG]: Provider `faker.providers.internet` has been localized to `en_US`.
+[2021-03-08 15:48:51,366][factory.py 115][DEBUG]: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:48:51,367][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.job`.
+[2021-03-08 15:48:51,371][factory.py 106][DEBUG]: Provider `faker.providers.job` has been localized to `en_US`.
+[2021-03-08 15:48:51,374][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.lorem`.
+[2021-03-08 15:48:51,378][factory.py 106][DEBUG]: Provider `faker.providers.lorem` has been localized to `en_US`.
+[2021-03-08 15:48:51,383][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.misc`.
+[2021-03-08 15:48:51,384][factory.py 106][DEBUG]: Provider `faker.providers.misc` has been localized to `en_US`.
+[2021-03-08 15:48:51,386][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.person`.
+[2021-03-08 15:48:51,398][factory.py 106][DEBUG]: Provider `faker.providers.person` has been localized to `en_US`.
+[2021-03-08 15:48:51,404][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[2021-03-08 15:48:51,414][factory.py 106][DEBUG]: Provider `faker.providers.phone_number` has been localized to `en_US`.
+[2021-03-08 15:48:51,417][factory.py 115][DEBUG]: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:48:51,417][factory.py 115][DEBUG]: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:48:51,417][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.ssn`.
+[2021-03-08 15:48:51,426][factory.py 106][DEBUG]: Provider `faker.providers.ssn` has been localized to `en_US`.
+[2021-03-08 15:48:51,429][factory.py 115][DEBUG]: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:48:51,430][conftest.py 26][INFO]: 获取当前用户的token信息为None
+[2021-03-08 15:48:51,430][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list1.yaml文件
+[2021-03-08 15:48:51,431][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-03-08 15:48:51,432][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/mc/my/msg/list
+[2021-03-08 15:48:51,432][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:48:51,432][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:48:51,432][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"pageIndex\": 0, \"pageSize\": 100, \"loadTime\": \"1615189731.4309196\", \"mtBiztype\": \"R.STUDYNOTICE\", \"userId\": \"USER20201227010000000008\"}",
+    "ctype": "YOULU.WEB",
+    "TOKEN": null
+}
+[2021-03-08 15:48:51,432][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:48:51,432][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:48:51,432][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"pageIndex": 0, "pageSize": 100, "loadTime": "1615189731.4309196", "mtBiztype": "R.STUDYNOTICE", "userId": "USER20201227010000000008"}', 'ctype': 'YOULU.WEB', 'TOKEN': None}
+[2021-03-08 15:48:51,432][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"pageIndex\": 0, \"pageSize\": 100, \"loadTime\": \"1615189731.4309196\", \"mtBiztype\": \"R.STUDYNOTICE\", \"userId\": \"USER20201227010000000008\"}",
+    "ctype": "YOULU.WEB",
+    "TOKEN": null
+}
+[2021-03-08 15:48:51,441][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/mc/my/msg/list?params=%7B%22pageIndex%22%3A+0%2C+%22pageSize%22%3A+100%2C+%22loadTime%22%3A+%221615189731.4309196%22%2C+%22mtBiztype%22%3A+%22R.STUDYNOTICE%22%2C+%22userId%22%3A+%22USER20201227010000000008%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 184
+[2021-03-08 15:48:51,442][test_msgList.py 13][INFO]: 开始测试
+[2021-03-08 15:51:20,869][factory.py 18][DEBUG]: Not in REPL -> leaving logger event level as is.
+[2021-03-08 15:51:21,187][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:51:21,188][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:51:21,263][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:51:21,270][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/sc/captcha/captcha
+[2021-03-08 15:51:21,271][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:51:21,271][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:51:21,271][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-03-08 15:51:21,271][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:51:21,271][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:51:21,271][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'ADMIN.WEB'}
+[2021-03-08 15:51:21,271][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-03-08 15:51:21,275][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsutest.niceloo.com:80
+[2021-03-08 15:51:21,309][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=ADMIN.WEB HTTP/1.1" 200 236
+[2021-03-08 15:51:21,310][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/uc/login
+[2021-03-08 15:51:21,310][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:51:21,310][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:51:21,311][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"B473FFB9290641EEBF56CE31F8FCEB00\", \"captchaValue\": \"4831\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:51:21,311][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:51:21,311][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:51:21,311][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "B473FFB9290641EEBF56CE31F8FCEB00", "captchaValue": "4831"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 15:51:21,311][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"B473FFB9290641EEBF56CE31F8FCEB00\", \"captchaValue\": \"4831\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:51:21,322][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%22B473FFB9290641EEBF56CE31F8FCEB00%22%2C+%22captchaValue%22%3A+%224831%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 263
+[2021-03-08 15:51:21,479][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.address`.
+[2021-03-08 15:51:21,489][factory.py 106][DEBUG]: Provider `faker.providers.address` has been localized to `en_US`.
+[2021-03-08 15:51:21,495][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.automotive`.
+[2021-03-08 15:51:21,500][factory.py 106][DEBUG]: Provider `faker.providers.automotive` has been localized to `en_US`.
+[2021-03-08 15:51:21,503][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.bank`.
+[2021-03-08 15:51:21,507][factory.py 104][DEBUG]: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2021-03-08 15:51:21,510][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.barcode`.
+[2021-03-08 15:51:21,511][factory.py 106][DEBUG]: Provider `faker.providers.barcode` has been localized to `en_US`.
+[2021-03-08 15:51:21,515][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.color`.
+[2021-03-08 15:51:21,518][factory.py 106][DEBUG]: Provider `faker.providers.color` has been localized to `en_US`.
+[2021-03-08 15:51:21,520][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.company`.
+[2021-03-08 15:51:21,526][factory.py 106][DEBUG]: Provider `faker.providers.company` has been localized to `en_US`.
+[2021-03-08 15:51:21,529][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[2021-03-08 15:51:21,531][factory.py 106][DEBUG]: Provider `faker.providers.credit_card` has been localized to `en_US`.
+[2021-03-08 15:51:21,534][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.currency`.
+[2021-03-08 15:51:21,537][factory.py 106][DEBUG]: Provider `faker.providers.currency` has been localized to `en_US`.
+[2021-03-08 15:51:21,541][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.date_time`.
+[2021-03-08 15:51:21,547][factory.py 106][DEBUG]: Provider `faker.providers.date_time` has been localized to `en_US`.
+[2021-03-08 15:51:21,549][factory.py 115][DEBUG]: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:51:21,550][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.geo`.
+[2021-03-08 15:51:21,551][factory.py 106][DEBUG]: Provider `faker.providers.geo` has been localized to `en_US`.
+[2021-03-08 15:51:21,554][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.internet`.
+[2021-03-08 15:51:21,561][factory.py 106][DEBUG]: Provider `faker.providers.internet` has been localized to `en_US`.
+[2021-03-08 15:51:21,565][factory.py 115][DEBUG]: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:51:21,566][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.job`.
+[2021-03-08 15:51:21,571][factory.py 106][DEBUG]: Provider `faker.providers.job` has been localized to `en_US`.
+[2021-03-08 15:51:21,573][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.lorem`.
+[2021-03-08 15:51:21,577][factory.py 106][DEBUG]: Provider `faker.providers.lorem` has been localized to `en_US`.
+[2021-03-08 15:51:21,581][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.misc`.
+[2021-03-08 15:51:21,582][factory.py 106][DEBUG]: Provider `faker.providers.misc` has been localized to `en_US`.
+[2021-03-08 15:51:21,585][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.person`.
+[2021-03-08 15:51:21,596][factory.py 106][DEBUG]: Provider `faker.providers.person` has been localized to `en_US`.
+[2021-03-08 15:51:21,603][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[2021-03-08 15:51:21,614][factory.py 106][DEBUG]: Provider `faker.providers.phone_number` has been localized to `en_US`.
+[2021-03-08 15:51:21,617][factory.py 115][DEBUG]: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:51:21,617][factory.py 115][DEBUG]: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:51:21,618][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.ssn`.
+[2021-03-08 15:51:21,627][factory.py 106][DEBUG]: Provider `faker.providers.ssn` has been localized to `en_US`.
+[2021-03-08 15:51:21,630][factory.py 115][DEBUG]: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 15:51:21,630][conftest.py 26][INFO]: 获取当前用户的token信息为None
+[2021-03-08 15:51:21,630][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list1.yaml文件
+[2021-03-08 15:51:21,631][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-03-08 15:51:21,632][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/mc/my/msg/list
+[2021-03-08 15:51:21,632][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:51:21,632][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:51:21,632][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"pageIndex\": 0, \"pageSize\": 100, \"loadTime\": \"1615189881.6300185\", \"mtBiztype\": \"R.STUDYNOTICE\", \"userId\": \"USER20201227010000000008\"}",
+    "ctype": "YOULU.WEB",
+    "TOKEN": null
+}
+[2021-03-08 15:51:21,632][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:51:21,632][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:51:21,632][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"pageIndex": 0, "pageSize": 100, "loadTime": "1615189881.6300185", "mtBiztype": "R.STUDYNOTICE", "userId": "USER20201227010000000008"}', 'ctype': 'YOULU.WEB', 'TOKEN': None}
+[2021-03-08 15:51:21,632][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"pageIndex\": 0, \"pageSize\": 100, \"loadTime\": \"1615189881.6300185\", \"mtBiztype\": \"R.STUDYNOTICE\", \"userId\": \"USER20201227010000000008\"}",
+    "ctype": "YOULU.WEB",
+    "TOKEN": null
+}
+[2021-03-08 15:51:21,641][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/mc/my/msg/list?params=%7B%22pageIndex%22%3A+0%2C+%22pageSize%22%3A+100%2C+%22loadTime%22%3A+%221615189881.6300185%22%2C+%22mtBiztype%22%3A+%22R.STUDYNOTICE%22%2C+%22userId%22%3A+%22USER20201227010000000008%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 184
+[2021-03-08 15:51:21,642][test_msgList.py 16][INFO]: 开始测试
+[2021-03-08 15:55:32,095][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:55:32,096][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:55:32,121][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/sc/captcha/captcha
+[2021-03-08 15:55:32,121][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:55:32,121][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:55:32,121][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-03-08 15:55:32,121][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:55:32,121][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:55:32,121][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'ADMIN.WEB'}
+[2021-03-08 15:55:32,121][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "ADMIN.WEB"
+}
+[2021-03-08 15:55:32,126][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsutest.niceloo.com:80
+[2021-03-08 15:55:32,144][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=ADMIN.WEB HTTP/1.1" 200 236
+[2021-03-08 15:55:32,144][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/uc/login
+[2021-03-08 15:55:32,144][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:55:32,145][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:55:32,145][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"620E059AB95F4B438A270AB422714B74\", \"captchaValue\": \"6188\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:55:32,145][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:55:32,145][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:55:32,145][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "620E059AB95F4B438A270AB422714B74", "captchaValue": "6188"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 15:55:32,145][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"620E059AB95F4B438A270AB422714B74\", \"captchaValue\": \"6188\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:55:32,152][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%22620E059AB95F4B438A270AB422714B74%22%2C+%22captchaValue%22%3A+%226188%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 263
+[2021-03-08 15:56:05,205][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:56:05,206][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:56:05,228][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/sc/captcha/captcha
+[2021-03-08 15:56:05,228][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:56:05,228][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:56:05,228][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:56:05,228][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:56:05,228][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:56:05,229][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 15:56:05,229][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:56:05,236][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsutest.niceloo.com:80
+[2021-03-08 15:56:05,263][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 236
+[2021-03-08 15:56:05,263][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/uc/login
+[2021-03-08 15:56:05,263][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:56:05,264][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:56:05,264][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"E4278819414846D99588844F7975E3EB\", \"captchaValue\": \"7536\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:56:05,264][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:56:05,264][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:56:05,264][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "E4278819414846D99588844F7975E3EB", "captchaValue": "7536"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 15:56:05,264][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"E4278819414846D99588844F7975E3EB\", \"captchaValue\": \"7536\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:56:05,271][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%22E4278819414846D99588844F7975E3EB%22%2C+%22captchaValue%22%3A+%227536%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 263
+[2021-03-08 15:57:14,089][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:57:14,090][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:57:14,112][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/sc/captcha/captcha
+[2021-03-08 15:57:14,112][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:57:14,112][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:57:14,112][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:57:14,112][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:57:14,112][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:57:14,112][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 15:57:14,112][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:57:14,118][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsutest.niceloo.com:80
+[2021-03-08 15:57:14,161][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 236
+[2021-03-08 15:57:14,162][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/uc/login
+[2021-03-08 15:57:14,162][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:57:14,162][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:57:14,162][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"C5252B227977416FB7ABFE62352DB904\", \"captchaValue\": \"7297\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:57:14,162][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:57:14,162][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:57:14,162][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "C5252B227977416FB7ABFE62352DB904", "captchaValue": "7297"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 15:57:14,162][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"C5252B227977416FB7ABFE62352DB904\", \"captchaValue\": \"7297\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:57:14,183][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%22C5252B227977416FB7ABFE62352DB904%22%2C+%22captchaValue%22%3A+%227297%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 263
+[2021-03-08 15:57:23,927][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:57:23,927][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 15:57:23,948][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/sc/captcha/captcha
+[2021-03-08 15:57:23,948][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:57:23,948][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:57:23,948][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:57:23,948][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:57:23,948][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:57:23,948][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 15:57:23,949][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:57:23,953][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsutest.niceloo.com:80
+[2021-03-08 15:57:23,987][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 236
+[2021-03-08 15:57:23,987][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/uc/login
+[2021-03-08 15:57:23,987][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 15:57:23,987][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 15:57:23,987][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"D3647BAB7A084D3D8FB364F8CDE850A0\", \"captchaValue\": \"5388\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:57:23,987][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 15:57:23,989][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 15:57:23,989][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "D3647BAB7A084D3D8FB364F8CDE850A0", "captchaValue": "5388"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 15:57:23,989][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"D3647BAB7A084D3D8FB364F8CDE850A0\", \"captchaValue\": \"5388\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 15:57:24,006][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%22D3647BAB7A084D3D8FB364F8CDE850A0%22%2C+%22captchaValue%22%3A+%225388%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 263
+[2021-03-08 16:12:56,931][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 16:12:56,933][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 16:12:57,026][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 16:12:57,064][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/sc/captcha/captcha
+[2021-03-08 16:12:57,064][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 16:12:57,064][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 16:12:57,065][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 16:12:57,065][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 16:12:57,065][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 16:12:57,065][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 16:12:57,065][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 16:12:57,070][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsutest.niceloo.com:80
+[2021-03-08 16:12:57,111][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 236
+[2021-03-08 16:12:57,111][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/uc/login
+[2021-03-08 16:12:57,111][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 16:12:57,112][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 16:12:57,112][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"872C0F9962A94CF895E9DD52E8609EBD\", \"captchaValue\": \"9719\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 16:12:57,112][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 16:12:57,112][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 16:12:57,112][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "872C0F9962A94CF895E9DD52E8609EBD", "captchaValue": "9719"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 16:12:57,112][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"872C0F9962A94CF895E9DD52E8609EBD\", \"captchaValue\": \"9719\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 16:12:57,125][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%22872C0F9962A94CF895E9DD52E8609EBD%22%2C+%22captchaValue%22%3A+%229719%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 263
+[2021-03-08 16:12:57,328][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.address`.
+[2021-03-08 16:12:57,340][factory.py 106][DEBUG]: Provider `faker.providers.address` has been localized to `en_US`.
+[2021-03-08 16:12:57,349][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.automotive`.
+[2021-03-08 16:12:57,357][factory.py 106][DEBUG]: Provider `faker.providers.automotive` has been localized to `en_US`.
+[2021-03-08 16:12:57,362][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.bank`.
+[2021-03-08 16:12:57,367][factory.py 104][DEBUG]: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2021-03-08 16:12:57,370][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.barcode`.
+[2021-03-08 16:12:57,372][factory.py 106][DEBUG]: Provider `faker.providers.barcode` has been localized to `en_US`.
+[2021-03-08 16:12:57,379][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.color`.
+[2021-03-08 16:12:57,382][factory.py 106][DEBUG]: Provider `faker.providers.color` has been localized to `en_US`.
+[2021-03-08 16:12:57,385][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.company`.
+[2021-03-08 16:12:57,392][factory.py 106][DEBUG]: Provider `faker.providers.company` has been localized to `en_US`.
+[2021-03-08 16:12:57,395][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[2021-03-08 16:12:57,398][factory.py 106][DEBUG]: Provider `faker.providers.credit_card` has been localized to `en_US`.
+[2021-03-08 16:12:57,402][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.currency`.
+[2021-03-08 16:12:57,406][factory.py 106][DEBUG]: Provider `faker.providers.currency` has been localized to `en_US`.
+[2021-03-08 16:12:57,408][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.date_time`.
+[2021-03-08 16:12:57,414][factory.py 106][DEBUG]: Provider `faker.providers.date_time` has been localized to `en_US`.
+[2021-03-08 16:12:57,418][factory.py 115][DEBUG]: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:12:57,418][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.geo`.
+[2021-03-08 16:12:57,420][factory.py 106][DEBUG]: Provider `faker.providers.geo` has been localized to `en_US`.
+[2021-03-08 16:12:57,424][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.internet`.
+[2021-03-08 16:12:57,432][factory.py 106][DEBUG]: Provider `faker.providers.internet` has been localized to `en_US`.
+[2021-03-08 16:12:57,435][factory.py 115][DEBUG]: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:12:57,436][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.job`.
+[2021-03-08 16:12:57,441][factory.py 106][DEBUG]: Provider `faker.providers.job` has been localized to `en_US`.
+[2021-03-08 16:12:57,445][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.lorem`.
+[2021-03-08 16:12:57,449][factory.py 106][DEBUG]: Provider `faker.providers.lorem` has been localized to `en_US`.
+[2021-03-08 16:12:57,454][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.misc`.
+[2021-03-08 16:12:57,456][factory.py 106][DEBUG]: Provider `faker.providers.misc` has been localized to `en_US`.
+[2021-03-08 16:12:57,460][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.person`.
+[2021-03-08 16:12:57,473][factory.py 106][DEBUG]: Provider `faker.providers.person` has been localized to `en_US`.
+[2021-03-08 16:12:57,481][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[2021-03-08 16:12:57,493][factory.py 106][DEBUG]: Provider `faker.providers.phone_number` has been localized to `en_US`.
+[2021-03-08 16:12:57,497][factory.py 115][DEBUG]: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:12:57,498][factory.py 115][DEBUG]: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:12:57,498][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.ssn`.
+[2021-03-08 16:12:57,508][factory.py 106][DEBUG]: Provider `faker.providers.ssn` has been localized to `en_US`.
+[2021-03-08 16:12:57,512][factory.py 115][DEBUG]: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:12:57,513][conftest.py 26][INFO]: 获取当前用户的token信息为None
+[2021-03-08 16:12:57,513][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list1.yaml文件
+[2021-03-08 16:12:57,516][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-03-08 16:12:57,517][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/mc/my/msg/list
+[2021-03-08 16:12:57,517][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 16:12:57,517][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 16:12:57,517][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"pageIndex\": 0, \"pageSize\": 100, \"loadTime\": \"1615191177.5137343\", \"mtBiztype\": \"R.STUDYNOTICE\", \"userId\": \"USER20201227010000000008\"}",
+    "ctype": "YOULU.WEB",
+    "TOKEN": null
+}
+[2021-03-08 16:12:57,517][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 16:12:57,517][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 16:12:57,517][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"pageIndex": 0, "pageSize": 100, "loadTime": "1615191177.5137343", "mtBiztype": "R.STUDYNOTICE", "userId": "USER20201227010000000008"}', 'ctype': 'YOULU.WEB', 'TOKEN': None}
+[2021-03-08 16:12:57,518][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"pageIndex\": 0, \"pageSize\": 100, \"loadTime\": \"1615191177.5137343\", \"mtBiztype\": \"R.STUDYNOTICE\", \"userId\": \"USER20201227010000000008\"}",
+    "ctype": "YOULU.WEB",
+    "TOKEN": null
+}
+[2021-03-08 16:12:57,524][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/mc/my/msg/list?params=%7B%22pageIndex%22%3A+0%2C+%22pageSize%22%3A+100%2C+%22loadTime%22%3A+%221615191177.5137343%22%2C+%22mtBiztype%22%3A+%22R.STUDYNOTICE%22%2C+%22userId%22%3A+%22USER20201227010000000008%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 184
+[2021-03-08 16:12:57,526][test_msgList.py 16][INFO]: 开始测试
+[2021-03-08 16:15:25,552][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 16:15:25,553][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 16:15:25,634][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 16:15:25,664][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/sc/captcha/captcha
+[2021-03-08 16:15:25,664][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 16:15:25,664][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 16:15:25,664][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 16:15:25,664][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 16:15:25,664][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 16:15:25,665][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 16:15:25,665][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 16:15:25,670][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsutest.niceloo.com:80
+[2021-03-08 16:15:25,697][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 236
+[2021-03-08 16:15:25,697][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/uc/login
+[2021-03-08 16:15:25,698][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 16:15:25,698][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 16:15:25,698][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"B6BDC151C1EB42AB8B690CBE260E249F\", \"captchaValue\": \"2358\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 16:15:25,698][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 16:15:25,698][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 16:15:25,698][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "B6BDC151C1EB42AB8B690CBE260E249F", "captchaValue": "2358"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 16:15:25,698][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"B6BDC151C1EB42AB8B690CBE260E249F\", \"captchaValue\": \"2358\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 16:15:25,712][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%22B6BDC151C1EB42AB8B690CBE260E249F%22%2C+%22captchaValue%22%3A+%222358%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 263
+[2021-03-08 16:15:25,896][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.address`.
+[2021-03-08 16:15:25,908][factory.py 106][DEBUG]: Provider `faker.providers.address` has been localized to `en_US`.
+[2021-03-08 16:15:25,915][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.automotive`.
+[2021-03-08 16:15:25,921][factory.py 106][DEBUG]: Provider `faker.providers.automotive` has been localized to `en_US`.
+[2021-03-08 16:15:25,924][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.bank`.
+[2021-03-08 16:15:25,929][factory.py 104][DEBUG]: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2021-03-08 16:15:25,933][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.barcode`.
+[2021-03-08 16:15:25,935][factory.py 106][DEBUG]: Provider `faker.providers.barcode` has been localized to `en_US`.
+[2021-03-08 16:15:25,940][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.color`.
+[2021-03-08 16:15:25,944][factory.py 106][DEBUG]: Provider `faker.providers.color` has been localized to `en_US`.
+[2021-03-08 16:15:25,947][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.company`.
+[2021-03-08 16:15:25,955][factory.py 106][DEBUG]: Provider `faker.providers.company` has been localized to `en_US`.
+[2021-03-08 16:15:25,959][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[2021-03-08 16:15:25,961][factory.py 106][DEBUG]: Provider `faker.providers.credit_card` has been localized to `en_US`.
+[2021-03-08 16:15:25,965][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.currency`.
+[2021-03-08 16:15:25,969][factory.py 106][DEBUG]: Provider `faker.providers.currency` has been localized to `en_US`.
+[2021-03-08 16:15:25,972][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.date_time`.
+[2021-03-08 16:15:25,978][factory.py 106][DEBUG]: Provider `faker.providers.date_time` has been localized to `en_US`.
+[2021-03-08 16:15:25,981][factory.py 115][DEBUG]: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:15:25,981][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.geo`.
+[2021-03-08 16:15:25,983][factory.py 106][DEBUG]: Provider `faker.providers.geo` has been localized to `en_US`.
+[2021-03-08 16:15:25,986][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.internet`.
+[2021-03-08 16:15:25,994][factory.py 106][DEBUG]: Provider `faker.providers.internet` has been localized to `en_US`.
+[2021-03-08 16:15:25,997][factory.py 115][DEBUG]: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:15:25,998][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.job`.
+[2021-03-08 16:15:26,003][factory.py 106][DEBUG]: Provider `faker.providers.job` has been localized to `en_US`.
+[2021-03-08 16:15:26,007][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.lorem`.
+[2021-03-08 16:15:26,011][factory.py 106][DEBUG]: Provider `faker.providers.lorem` has been localized to `en_US`.
+[2021-03-08 16:15:26,016][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.misc`.
+[2021-03-08 16:15:26,017][factory.py 106][DEBUG]: Provider `faker.providers.misc` has been localized to `en_US`.
+[2021-03-08 16:15:26,020][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.person`.
+[2021-03-08 16:15:26,032][factory.py 106][DEBUG]: Provider `faker.providers.person` has been localized to `en_US`.
+[2021-03-08 16:15:26,041][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[2021-03-08 16:15:26,053][factory.py 106][DEBUG]: Provider `faker.providers.phone_number` has been localized to `en_US`.
+[2021-03-08 16:15:26,056][factory.py 115][DEBUG]: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:15:26,057][factory.py 115][DEBUG]: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:15:26,057][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.ssn`.
+[2021-03-08 16:15:26,068][factory.py 106][DEBUG]: Provider `faker.providers.ssn` has been localized to `en_US`.
+[2021-03-08 16:15:26,071][factory.py 115][DEBUG]: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:15:26,072][conftest.py 26][INFO]: 获取当前用户的token信息为None
+[2021-03-08 16:15:26,072][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list1.yaml文件
+[2021-03-08 16:15:26,075][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-03-08 16:15:26,075][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/mc/my/msg/list
+[2021-03-08 16:15:26,075][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 16:15:26,076][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 16:15:26,076][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"pageIndex\": 0, \"pageSize\": 100, \"loadTime\": \"1615191326.0728886\", \"mtBiztype\": \"R.STUDYNOTICE\", \"userId\": \"USER20201227010000000008\"}",
+    "ctype": "YOULU.WEB",
+    "TOKEN": null
+}
+[2021-03-08 16:15:26,076][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 16:15:26,076][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 16:15:26,076][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"pageIndex": 0, "pageSize": 100, "loadTime": "1615191326.0728886", "mtBiztype": "R.STUDYNOTICE", "userId": "USER20201227010000000008"}', 'ctype': 'YOULU.WEB', 'TOKEN': None}
+[2021-03-08 16:15:26,077][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"pageIndex\": 0, \"pageSize\": 100, \"loadTime\": \"1615191326.0728886\", \"mtBiztype\": \"R.STUDYNOTICE\", \"userId\": \"USER20201227010000000008\"}",
+    "ctype": "YOULU.WEB",
+    "TOKEN": null
+}
+[2021-03-08 16:15:26,086][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/mc/my/msg/list?params=%7B%22pageIndex%22%3A+0%2C+%22pageSize%22%3A+100%2C+%22loadTime%22%3A+%221615191326.0728886%22%2C+%22mtBiztype%22%3A+%22R.STUDYNOTICE%22%2C+%22userId%22%3A+%22USER20201227010000000008%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 184
+[2021-03-08 16:15:26,087][test_msgList.py 16][INFO]: 开始测试
+[2021-03-08 16:17:19,600][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 16:17:19,602][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 16:17:19,686][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-03-08 16:17:19,715][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/sc/captcha/captcha
+[2021-03-08 16:17:19,715][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 16:17:19,716][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 16:17:19,716][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 16:17:19,716][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 16:17:19,716][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 16:17:19,717][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"scene": "uc_login"}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 16:17:19,717][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"scene\": \"uc_login\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 16:17:19,722][connectionpool.py 231][DEBUG]: Starting new HTTP connection (1): umsutest.niceloo.com:80
+[2021-03-08 16:17:19,746][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/sc/captcha/captcha?params=%7B%22scene%22%3A+%22uc_login%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 236
+[2021-03-08 16:17:19,747][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/uc/login
+[2021-03-08 16:17:19,747][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 16:17:19,747][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 16:17:19,747][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"6D23B7F586164C56ADB5E6818DD40A53\", \"captchaValue\": \"1566\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 16:17:19,747][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 16:17:19,747][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 16:17:19,747][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"userLoginname": "", "userLoginpwd": "123456", "userMobile": "18310325608", "userEmail": "", "verify": "", "captcha": {"captchaToken": "6D23B7F586164C56ADB5E6818DD40A53", "captchaValue": "1566"}, "userFlag": "S", "clueExtension": "", "behaviorExtension": "", "extensionType": ""}', 'ctype': 'YOULU.WEB'}
+[2021-03-08 16:17:19,747][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"userLoginname\": \"\", \"userLoginpwd\": \"123456\", \"userMobile\": \"18310325608\", \"userEmail\": \"\", \"verify\": \"\", \"captcha\": {\"captchaToken\": \"6D23B7F586164C56ADB5E6818DD40A53\", \"captchaValue\": \"1566\"}, \"userFlag\": \"S\", \"clueExtension\": \"\", \"behaviorExtension\": \"\", \"extensionType\": \"\"}",
+    "ctype": "YOULU.WEB"
+}
+[2021-03-08 16:17:19,765][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/uc/login?params=%7B%22userLoginname%22%3A+%22%22%2C+%22userLoginpwd%22%3A+%22123456%22%2C+%22userMobile%22%3A+%2218310325608%22%2C+%22userEmail%22%3A+%22%22%2C+%22verify%22%3A+%22%22%2C+%22captcha%22%3A+%7B%22captchaToken%22%3A+%226D23B7F586164C56ADB5E6818DD40A53%22%2C+%22captchaValue%22%3A+%221566%22%7D%2C+%22userFlag%22%3A+%22S%22%2C+%22clueExtension%22%3A+%22%22%2C+%22behaviorExtension%22%3A+%22%22%2C+%22extensionType%22%3A+%22%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 263
+[2021-03-08 16:17:19,888][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.address`.
+[2021-03-08 16:17:19,900][factory.py 106][DEBUG]: Provider `faker.providers.address` has been localized to `en_US`.
+[2021-03-08 16:17:19,907][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.automotive`.
+[2021-03-08 16:17:19,913][factory.py 106][DEBUG]: Provider `faker.providers.automotive` has been localized to `en_US`.
+[2021-03-08 16:17:19,916][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.bank`.
+[2021-03-08 16:17:19,921][factory.py 104][DEBUG]: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2021-03-08 16:17:19,925][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.barcode`.
+[2021-03-08 16:17:19,926][factory.py 106][DEBUG]: Provider `faker.providers.barcode` has been localized to `en_US`.
+[2021-03-08 16:17:19,931][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.color`.
+[2021-03-08 16:17:19,935][factory.py 106][DEBUG]: Provider `faker.providers.color` has been localized to `en_US`.
+[2021-03-08 16:17:19,937][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.company`.
+[2021-03-08 16:17:19,945][factory.py 106][DEBUG]: Provider `faker.providers.company` has been localized to `en_US`.
+[2021-03-08 16:17:19,948][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[2021-03-08 16:17:19,950][factory.py 106][DEBUG]: Provider `faker.providers.credit_card` has been localized to `en_US`.
+[2021-03-08 16:17:19,953][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.currency`.
+[2021-03-08 16:17:19,957][factory.py 106][DEBUG]: Provider `faker.providers.currency` has been localized to `en_US`.
+[2021-03-08 16:17:19,960][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.date_time`.
+[2021-03-08 16:17:19,966][factory.py 106][DEBUG]: Provider `faker.providers.date_time` has been localized to `en_US`.
+[2021-03-08 16:17:19,969][factory.py 115][DEBUG]: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:17:19,970][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.geo`.
+[2021-03-08 16:17:19,972][factory.py 106][DEBUG]: Provider `faker.providers.geo` has been localized to `en_US`.
+[2021-03-08 16:17:19,975][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.internet`.
+[2021-03-08 16:17:19,982][factory.py 106][DEBUG]: Provider `faker.providers.internet` has been localized to `en_US`.
+[2021-03-08 16:17:19,986][factory.py 115][DEBUG]: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:17:19,986][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.job`.
+[2021-03-08 16:17:19,992][factory.py 106][DEBUG]: Provider `faker.providers.job` has been localized to `en_US`.
+[2021-03-08 16:17:19,995][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.lorem`.
+[2021-03-08 16:17:19,999][factory.py 106][DEBUG]: Provider `faker.providers.lorem` has been localized to `en_US`.
+[2021-03-08 16:17:20,003][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.misc`.
+[2021-03-08 16:17:20,005][factory.py 106][DEBUG]: Provider `faker.providers.misc` has been localized to `en_US`.
+[2021-03-08 16:17:20,008][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.person`.
+[2021-03-08 16:17:20,021][factory.py 106][DEBUG]: Provider `faker.providers.person` has been localized to `en_US`.
+[2021-03-08 16:17:20,029][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[2021-03-08 16:17:20,040][factory.py 106][DEBUG]: Provider `faker.providers.phone_number` has been localized to `en_US`.
+[2021-03-08 16:17:20,044][factory.py 115][DEBUG]: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:17:20,044][factory.py 115][DEBUG]: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:17:20,044][factory.py 94][DEBUG]: Looking for locale `en_US` in provider `faker.providers.ssn`.
+[2021-03-08 16:17:20,055][factory.py 106][DEBUG]: Provider `faker.providers.ssn` has been localized to `en_US`.
+[2021-03-08 16:17:20,058][factory.py 115][DEBUG]: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-03-08 16:17:20,059][conftest.py 26][INFO]: 获取当前用户的token信息为None
+[2021-03-08 16:17:20,059][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list1.yaml文件
+[2021-03-08 16:17:20,061][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-03-08 16:17:20,061][rest_client.py 52][INFO]: 接口请求地址 ==>> http://umsutest.niceloo.com/api/mc/my/msg/list
+[2021-03-08 16:17:20,062][rest_client.py 53][INFO]: 接口请求方式 ==>> GET
+[2021-03-08 16:17:20,062][rest_client.py 55][INFO]: 接口请求头 ==>> null
+[2021-03-08 16:17:20,062][rest_client.py 56][INFO]: 接口请求 params 参数 ==>> {
+    "params": "{\"pageIndex\": 0, \"pageSize\": 100, \"loadTime\": \"1615191440.05921\", \"mtBiztype\": \"R.STUDYNOTICE\", \"userId\": \"USER20201227010000000008\"}",
+    "ctype": "YOULU.WEB",
+    "TOKEN": null
+}
+[2021-03-08 16:17:20,062][rest_client.py 57][INFO]: 接口请求体 data 参数 ==>> null
+[2021-03-08 16:17:20,062][rest_client.py 58][INFO]: 接口请求体 json 参数 ==>> null
+[2021-03-08 16:17:20,062][rest_client.py 59][INFO]: 接口上传附件 files 参数 ==>> {'params': '{"pageIndex": 0, "pageSize": 100, "loadTime": "1615191440.05921", "mtBiztype": "R.STUDYNOTICE", "userId": "USER20201227010000000008"}', 'ctype': 'YOULU.WEB', 'TOKEN': None}
+[2021-03-08 16:17:20,062][rest_client.py 60][INFO]: 接口 cookies 参数 ==>> {
+    "params": "{\"pageIndex\": 0, \"pageSize\": 100, \"loadTime\": \"1615191440.05921\", \"mtBiztype\": \"R.STUDYNOTICE\", \"userId\": \"USER20201227010000000008\"}",
+    "ctype": "YOULU.WEB",
+    "TOKEN": null
+}
+[2021-03-08 16:17:20,071][connectionpool.py 461][DEBUG]: http://umsutest.niceloo.com:80 "GET /api/mc/my/msg/list?params=%7B%22pageIndex%22%3A+0%2C+%22pageSize%22%3A+100%2C+%22loadTime%22%3A+%221615191440.05921%22%2C+%22mtBiztype%22%3A+%22R.STUDYNOTICE%22%2C+%22userId%22%3A+%22USER20201227010000000008%22%7D&ctype=YOULU.WEB HTTP/1.1" 200 184
+[2021-03-08 16:17:20,072][test_msgList.py 16][INFO]: 开始测试

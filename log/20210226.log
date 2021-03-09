@@ -1,0 +1,78 @@
+[2021-02-26 16:33:56,270][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:33:56,272][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': 'str(int(time.time()))', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:34:44,468][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:34:44,470][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:38:57,986][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-26 16:38:57,987][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface order by id desc limit 1'}}
+[2021-02-26 16:39:26,396][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:39:26,398][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:40:35,699][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:40:35,704][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:40:45,061][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:40:45,063][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:43:38,449][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:43:38,451][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:44:42,401][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:44:42,402][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:45:00,719][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:45:00,721][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:45:12,184][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:45:12,186][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:45:56,851][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:45:56,853][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:50:50,100][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:50:50,101][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:51:19,677][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:51:19,679][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:57:11,039][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:57:11,041][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:57:47,040][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:57:47,046][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:58:41,777][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:58:41,781][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 16:59:25,838][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 16:59:25,839][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:00:02,819][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:00:02,822][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:02:55,328][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:02:55,329][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:04:12,254][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:04:12,255][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:06:21,103][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:06:21,104][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:07:36,277][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:07:36,279][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:08:37,417][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:08:37,419][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:08:58,001][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:08:58,002][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:09:14,202][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:09:14,204][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:09:42,047][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:09:42,049][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:10:09,172][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:10:09,174][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:11:35,560][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:11:35,561][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:11:56,878][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:11:56,880][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:12:06,450][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:12:06,451][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:30:01,687][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:30:01,689][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:30:19,508][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:30:19,510][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:34:43,361][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:34:43,363][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:35:16,016][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:35:16,018][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:36:56,783][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:36:56,785][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:37:44,185][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:37:44,187][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:38:42,188][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:38:42,190][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:38:55,219][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:38:55,221][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}
+[2021-02-26 17:39:17,121][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\test_list.yaml文件
+[2021-02-26 17:39:17,123][read_data.py 25][INFO]: 读取数据 ===>{'msg_list': {'pageIndex': 0, 'pageSize': 100, 'loadTime': '${time}', 'mtBiztype': 'R.STUDYNOTICE', 'userId': 'USER20201227010000000008'}}

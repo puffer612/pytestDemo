@@ -1,0 +1,74 @@
+[2021-02-25 16:52:22,384][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 16:54:11,125][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 16:54:46,086][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 16:57:07,351][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 16:57:07,352][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'xxx', 'sql': 'select * from users'}}
+[2021-02-25 16:59:20,808][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:00:41,859][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:00:41,884][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:00:41,885][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface'}}
+[2021-02-25 17:01:11,792][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:01:11,811][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:01:11,812][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface'}}
+[2021-02-25 17:01:52,620][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:01:52,639][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:01:52,640][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface'}}
+[2021-02-25 17:02:27,009][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:02:27,028][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:02:27,029][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface'}}
+[2021-02-25 17:02:59,060][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:02:59,080][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:02:59,081][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface'}}
+[2021-02-25 17:05:02,227][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:05:02,247][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:05:02,248][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface where id=1'}}
+[2021-02-25 17:07:43,214][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:08:04,205][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:08:04,224][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:08:04,225][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface where id=1'}}
+[2021-02-25 17:26:15,095][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:27:28,967][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:27:28,985][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:27:28,986][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface where id=1'}}
+[2021-02-25 17:28:45,921][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:28:45,943][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:28:45,944][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface where id=1'}}
+[2021-02-25 17:30:50,064][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:30:50,083][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:30:50,084][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface where id=1'}}
+[2021-02-25 17:30:57,473][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:30:57,491][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:30:57,492][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface where id=1'}}
+[2021-02-25 17:32:59,826][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:32:59,846][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:32:59,847][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface where id=1'}}
+[2021-02-25 17:33:10,468][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:33:10,487][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:33:10,488][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface where id=1'}}
+[2021-02-25 17:33:22,054][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:33:22,075][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:33:22,077][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface where id=1'}}
+[2021-02-25 17:33:56,704][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:33:56,723][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:33:56,724][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface where id=1'}}
+[2021-02-25 17:42:09,672][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:42:09,691][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:42:09,692][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface order by desc limit 1'}}
+[2021-02-25 17:42:30,961][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:42:30,980][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:42:30,981][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface order by id desc limit 1'}}
+[2021-02-25 17:49:03,362][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:49:03,380][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:49:03,381][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': ['select * from interface order by id desc limit 1', 'select * from interface limit 1']}}
+[2021-02-25 17:50:46,345][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:50:46,364][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:50:46,365][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface order by id desc limit 1'}}
+[2021-02-25 17:50:59,426][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 17:50:59,448][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 17:50:59,449][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface order by id desc limit 1'}}
+[2021-02-25 18:06:33,678][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 18:06:55,229][read_data.py 36][INFO]: 加载D:\python_workspace\pytestDemo\config\setting.ini文件
+[2021-02-25 18:07:21,562][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 18:07:21,563][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface order by id desc limit 1'}}
+[2021-02-25 18:07:28,049][read_data.py 22][INFO]: 加载D:\python_workspace\pytestDemo\data\sql.yaml文件
+[2021-02-25 18:07:28,050][read_data.py 25][INFO]: 读取数据 ===>{'init_sql': {'table_name': 'interface', 'sql': 'select * from interface order by id desc limit 1'}}
